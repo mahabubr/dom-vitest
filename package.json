@@ -1,0 +1,17 @@
+{
+  "name": "dom-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --reporter verbose --run --environment jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^22.1.0",
+    "vitest": "^0.34.6"
+  }
+}
